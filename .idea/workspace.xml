@@ -12,9 +12,7 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afcfc0ef-d040-45c4-b154-3b6c1e68c0b2" name="Default Changelist" comment="adding slices">
-      <change afterPath="$PROJECT_DIR$/structs/Cargo.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structs/src/main.rs" afterDir="false" />
+    <list default="true" id="afcfc0ef-d040-45c4-b154-3b6c1e68c0b2" name="Default Changelist" comment="adding structs">
       <change beforePath="$PROJECT_DIR$/.idea/rust-2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rust-2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
@@ -48,7 +46,26 @@
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
     <property name="org.rust.disableDetachedFileInspection/Users/olegfomenko/Documents/Projects/CLion/rust-2/src/references.rs" value="true" />
   </component>
-  <component name="RunManager" selected="Cargo.Run structs">
+  <component name="RunManager" selected="Cargo.Run enums">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run enums" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package enums --bin enums" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="channel" value="DEFAULT" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Run references" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package references --bin references" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -105,32 +122,16 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-      <option name="command" value="run" />
-      <option name="channel" value="DEFAULT" />
-      <option name="allFeatures" value="false" />
-      <option name="emulateTerminal" value="false" />
-      <option name="backtrace" value="SHORT" />
-      <envs />
-      <option name="isRedirectInput" value="false" />
-      <option name="redirectInputPath" value="" />
-      <method v="2">
-        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Cargo.Run" />
       <item itemvalue="Cargo.Run references" />
       <item itemvalue="Cargo.Run slices" />
       <item itemvalue="Cargo.Run structs" />
+      <item itemvalue="Cargo.Run enums" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cargo.Run enums" />
         <item itemvalue="Cargo.Run structs" />
         <item itemvalue="Cargo.Run slices" />
         <item itemvalue="Cargo.Run references" />
@@ -139,6 +140,7 @@
   </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="version" value="2" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -148,7 +150,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1631452121774</updated>
-      <workItem from="1631452123700" duration="2511000" />
+      <workItem from="1631452123700" duration="3194000" />
+      <workItem from="1631472842678" duration="1636000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1631453235209</created>
@@ -164,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631453732734</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="adding structs">
+      <created>1631454803114</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1631454803114</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,10 +190,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial" />
     <MESSAGE value="adding slices" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding slices" />
+    <MESSAGE value="adding structs" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding structs" />
   </component>
 </project>
