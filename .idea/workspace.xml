@@ -15,11 +15,9 @@
     <cargoProject FILE="$PROJECT_DIR$/exceptions/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afcfc0ef-d040-45c4-b154-3b6c1e68c0b2" name="Default Changelist" comment="adding collection">
-      <change beforePath="$PROJECT_DIR$/.idea/rust-2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rust-2.iml" afterDir="false" />
+    <list default="true" id="afcfc0ef-d040-45c4-b154-3b6c1e68c0b2" name="Default Changelist" comment="adding exceptions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exceptions/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exceptions/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +176,7 @@
       <updated>1631452121774</updated>
       <workItem from="1631452123700" duration="3194000" />
       <workItem from="1631472842678" duration="1790000" />
-      <workItem from="1631483906965" duration="3695000" />
+      <workItem from="1631483906965" duration="3916000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1631453235209</created>
@@ -222,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631487961805</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="adding exceptions">
+      <created>1631488942602</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1631488942602</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +252,7 @@
     <MESSAGE value="adding enums" />
     <MESSAGE value="add mod" />
     <MESSAGE value="adding collection" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding collection" />
+    <MESSAGE value="adding exceptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding exceptions" />
   </component>
 </project>

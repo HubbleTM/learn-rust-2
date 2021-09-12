@@ -5,7 +5,7 @@ use std::io::ErrorKind;
 
 fn main() {
     // panic!("Hello, world!");
-    let text = open_file();
+    let text = open_file_refactored_2();
     match text {
         Ok(str) => println!("{}", str),
         Err(error) => match error.kind() {
@@ -22,7 +22,7 @@ fn open_file() -> Result<String, io::Error> {
     let mut file = match f {
         Ok(file) => {
             file
-        },
+        }
         Err(error) => return Err(error),
     };
 
@@ -32,4 +32,18 @@ fn open_file() -> Result<String, io::Error> {
         Ok(_) => Ok(s),
         Err(e) => Err(e),
     }
+}
+
+
+fn open_file_refactored() -> Result<String, io::Error> {
+    let mut file = File::open("hello.txt")?;
+    let mut s = String::new();
+    file.read_to_string(&mut s)?;
+    Ok(s)
+}
+
+fn open_file_refactored_2() -> Result<String, io::Error> {
+    let mut s = String::new();
+    File::open("hello.txt")?.read_to_string(&mut s)?;
+    Ok(s)
 }
