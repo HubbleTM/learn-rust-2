@@ -10,13 +10,16 @@
   </component>
   <component name="CargoProjects">
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/collections/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afcfc0ef-d040-45c4-b154-3b6c1e68c0b2" name="Default Changelist" comment="adding enums">
-      <change afterPath="$PROJECT_DIR$/src/lib.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sublib.rs" afterDir="false" />
+    <list default="true" id="afcfc0ef-d040-45c4-b154-3b6c1e68c0b2" name="Default Changelist" comment="add mod">
+      <change afterPath="$PROJECT_DIR$/collections/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collections/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/rust-2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rust-2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +56,21 @@
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
     <property name="org.rust.disableDetachedFileInspection/Users/olegfomenko/Documents/Projects/CLion/rust-2/src/references.rs" value="true" />
   </component>
-  <component name="RunManager" selected="Cargo.Run">
+  <component name="RunManager" selected="Cargo.Run collections">
+    <configuration name="Run collections" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package collections --bin collections" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/collections" />
+      <option name="channel" value="DEFAULT" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Run enums" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package enums --bin enums" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -135,9 +152,11 @@
       <item itemvalue="Cargo.Run slices" />
       <item itemvalue="Cargo.Run structs" />
       <item itemvalue="Cargo.Run enums" />
+      <item itemvalue="Cargo.Run collections" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cargo.Run collections" />
         <item itemvalue="Cargo.Run structs" />
         <item itemvalue="Cargo.Run enums" />
         <item itemvalue="Cargo.Run slices" />
@@ -159,7 +178,7 @@
       <updated>1631452121774</updated>
       <workItem from="1631452123700" duration="3194000" />
       <workItem from="1631472842678" duration="1790000" />
-      <workItem from="1631483906965" duration="1588000" />
+      <workItem from="1631483906965" duration="2885000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1631453235209</created>
@@ -189,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631474739066</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add mod">
+      <created>1631486475665</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1631486475665</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +238,7 @@
     <MESSAGE value="adding slices" />
     <MESSAGE value="adding structs" />
     <MESSAGE value="adding enums" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding enums" />
+    <MESSAGE value="add mod" />
+    <option name="LAST_COMMIT_MESSAGE" value="add mod" />
   </component>
 </project>
