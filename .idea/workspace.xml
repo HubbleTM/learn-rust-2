@@ -12,7 +12,12 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afcfc0ef-d040-45c4-b154-3b6c1e68c0b2" name="Default Changelist" comment="" />
+    <list default="true" id="afcfc0ef-d040-45c4-b154-3b6c1e68c0b2" name="Default Changelist" comment="initial">
+      <change beforePath="$PROJECT_DIR$/.idea/rust-2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rust-2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,9 +46,23 @@
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
     <property name="org.rust.disableDetachedFileInspection/Users/olegfomenko/Documents/Projects/CLion/rust-2/src/references.rs" value="true" />
   </component>
-  <component name="RunManager" selected="Cargo.Run references">
+  <component name="RunManager" selected="Cargo.Run slices">
     <configuration name="Run references" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package references --bin references" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="channel" value="DEFAULT" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run slices" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package slices --bin slices" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <option name="channel" value="DEFAULT" />
       <option name="allFeatures" value="false" />
@@ -91,9 +110,11 @@
     <list>
       <item itemvalue="Cargo.Run" />
       <item itemvalue="Cargo.Run references" />
+      <item itemvalue="Cargo.Run slices" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cargo.Run slices" />
         <item itemvalue="Cargo.Run references" />
       </list>
     </recent_temporary>
@@ -109,8 +130,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1631452121774</updated>
-      <workItem from="1631452123700" duration="1069000" />
+      <workItem from="1631452123700" duration="1489000" />
     </task>
+    <task id="LOCAL-00001" summary="initial">
+      <created>1631453235209</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1631453235209</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,5 +155,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial" />
   </component>
 </project>
