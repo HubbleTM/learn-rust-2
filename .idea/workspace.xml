@@ -11,11 +11,11 @@
   <component name="CargoProjects">
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
     <cargoProject FILE="$PROJECT_DIR$/collections/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/exception/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/exceptions/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afcfc0ef-d040-45c4-b154-3b6c1e68c0b2" name="Default Changelist" comment="add mod">
-      <change afterPath="$PROJECT_DIR$/collections/Cargo.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collections/src/main.rs" afterDir="false" />
+    <list default="true" id="afcfc0ef-d040-45c4-b154-3b6c1e68c0b2" name="Default Changelist" comment="adding collection">
       <change beforePath="$PROJECT_DIR$/.idea/rust-2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rust-2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
@@ -56,7 +56,7 @@
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
     <property name="org.rust.disableDetachedFileInspection/Users/olegfomenko/Documents/Projects/CLion/rust-2/src/references.rs" value="true" />
   </component>
-  <component name="RunManager" selected="Cargo.Run collections">
+  <component name="RunManager" selected="Cargo.Run exceptions">
     <configuration name="Run collections" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package collections --bin collections" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$/collections" />
@@ -85,9 +85,9 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run references" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package references --bin references" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+    <configuration name="Run exceptions" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package exceptions --bin exceptions" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/exceptions" />
       <option name="channel" value="DEFAULT" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
@@ -148,19 +148,19 @@
     </configuration>
     <list>
       <item itemvalue="Cargo.Run" />
-      <item itemvalue="Cargo.Run references" />
       <item itemvalue="Cargo.Run slices" />
       <item itemvalue="Cargo.Run structs" />
       <item itemvalue="Cargo.Run enums" />
       <item itemvalue="Cargo.Run collections" />
+      <item itemvalue="Cargo.Run exceptions" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cargo.Run exceptions" />
         <item itemvalue="Cargo.Run collections" />
         <item itemvalue="Cargo.Run structs" />
         <item itemvalue="Cargo.Run enums" />
         <item itemvalue="Cargo.Run slices" />
-        <item itemvalue="Cargo.Run references" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +178,7 @@
       <updated>1631452121774</updated>
       <workItem from="1631452123700" duration="3194000" />
       <workItem from="1631472842678" duration="1790000" />
-      <workItem from="1631483906965" duration="2885000" />
+      <workItem from="1631483906965" duration="3695000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1631453235209</created>
@@ -215,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631486475665</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="adding collection">
+      <created>1631487961805</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1631487961805</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,6 +246,7 @@
     <MESSAGE value="adding structs" />
     <MESSAGE value="adding enums" />
     <MESSAGE value="add mod" />
-    <option name="LAST_COMMIT_MESSAGE" value="add mod" />
+    <MESSAGE value="adding collection" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding collection" />
   </component>
 </project>
