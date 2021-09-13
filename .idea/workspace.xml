@@ -15,16 +15,16 @@
     <cargoProject FILE="$PROJECT_DIR$/exceptions/Cargo.toml" />
     <cargoProject FILE="$PROJECT_DIR$/generics/Cargo.toml" />
     <cargoProject FILE="$PROJECT_DIR$/lifetime/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/closures/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afcfc0ef-d040-45c4-b154-3b6c1e68c0b2" name="Default Changelist" comment="adding generics">
-      <change afterPath="$PROJECT_DIR$/lifetime/Cargo.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lifetime/src/main.rs" afterDir="false" />
+    <list default="true" id="afcfc0ef-d040-45c4-b154-3b6c1e68c0b2" name="Default Changelist" comment="adding lifetime">
+      <change afterPath="$PROJECT_DIR$/closures/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/closures/src/main.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/rust-2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rust-2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generics/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/generics/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,10 +61,19 @@
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
     <property name="org.rust.disableDetachedFileInspection/Users/olegfomenko/Documents/Projects/CLion/rust-2/src/references.rs" value="true" />
   </component>
-  <component name="RunManager" selected="Cargo.Run lifetime">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+  <component name="RunManager" selected="Cargo.Run closures">
+    <configuration name="Run closures" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package closures --bin closures" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/closures" />
+      <option name="channel" value="DEFAULT" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
     <configuration name="Run collections" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
@@ -123,20 +132,6 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run structs" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package structs --bin structs" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <option name="channel" value="DEFAULT" />
-      <option name="allFeatures" value="false" />
-      <option name="emulateTerminal" value="false" />
-      <option name="backtrace" value="SHORT" />
-      <envs />
-      <option name="isRedirectInput" value="false" />
-      <option name="redirectInputPath" value="" />
-      <method v="2">
-        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
       <option name="command" value="run --package rust-2 --bin rust-2" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -153,19 +148,19 @@
     </configuration>
     <list>
       <item itemvalue="Cargo.Run" />
-      <item itemvalue="Cargo.Run structs" />
       <item itemvalue="Cargo.Run collections" />
       <item itemvalue="Cargo.Run exceptions" />
       <item itemvalue="Cargo.Run generics" />
       <item itemvalue="Cargo.Run lifetime" />
+      <item itemvalue="Cargo.Run closures" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cargo.Run closures" />
         <item itemvalue="Cargo.Run lifetime" />
         <item itemvalue="Cargo.Run generics" />
         <item itemvalue="Cargo.Run exceptions" />
         <item itemvalue="Cargo.Run collections" />
-        <item itemvalue="Cargo.Run structs" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +179,8 @@
       <workItem from="1631452123700" duration="3194000" />
       <workItem from="1631472842678" duration="1790000" />
       <workItem from="1631483906965" duration="4496000" />
-      <workItem from="1631499549829" duration="1813000" />
+      <workItem from="1631499549829" duration="8209000" />
+      <workItem from="1631574361264" duration="1257000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1631453235209</created>
@@ -249,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631500505400</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="adding lifetime">
+      <created>1631501985441</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1631501985441</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +280,7 @@
     <MESSAGE value="adding exceptions" />
     <MESSAGE value="refactored exceptions" />
     <MESSAGE value="adding generics" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding generics" />
+    <MESSAGE value="adding lifetime" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding lifetime" />
   </component>
 </project>
