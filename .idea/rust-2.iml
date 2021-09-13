@@ -10,6 +10,7 @@
       <sourceFolder url="file://$MODULE_DIR$/collections/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/exceptions/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/generics/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lifetime/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />

@@ -15,5 +15,6 @@ members = [
     "enums",
     "collections",
     "exceptions",
-    "generics"
+    "generics",
+    "lifetime"
 ]

@@ -1,4 +1,5 @@
 use std::ops::Add;
+use std::fmt::{Display, Debug};
 
 fn max<T: PartialOrd + Copy>(list: &[T]) -> T {
     if list.len() == 0 {
@@ -45,6 +46,13 @@ impl<T, U> Point2<T, U> {
         }
     }
 }
+
+fn some_function<T: Display + Clone, U: Clone + Debug>(t: &T, u: &U) -> i32 {}
+
+fn some_function_refactored<T, U>(t: &T, u: &U) -> i32
+    where T: Display + Clone,
+          U: Clone + Debug
+{}
 
 fn main() {
     let p = Point { x: 10, y: 20 };
