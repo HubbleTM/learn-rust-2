@@ -13,11 +13,14 @@
     <cargoProject FILE="$PROJECT_DIR$/collections/Cargo.toml" />
     <cargoProject FILE="$PROJECT_DIR$/exception/Cargo.toml" />
     <cargoProject FILE="$PROJECT_DIR$/exceptions/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/generics/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afcfc0ef-d040-45c4-b154-3b6c1e68c0b2" name="Default Changelist" comment="adding exceptions">
+    <list default="true" id="afcfc0ef-d040-45c4-b154-3b6c1e68c0b2" name="Default Changelist" comment="refactored exceptions">
+      <change beforePath="$PROJECT_DIR$/.idea/rust-2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rust-2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exceptions/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exceptions/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +57,12 @@
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
     <property name="org.rust.disableDetachedFileInspection/Users/olegfomenko/Documents/Projects/CLion/rust-2/src/references.rs" value="true" />
   </component>
-  <component name="RunManager" selected="Cargo.Run exceptions">
+  <component name="RunManager" selected="Cargo.Run generics">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Run collections" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package collections --bin collections" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$/collections" />
@@ -97,9 +105,9 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run slices" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package slices --bin slices" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+    <configuration name="Run generics" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package generics --bin generics" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/generics" />
       <option name="channel" value="DEFAULT" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
@@ -139,26 +147,21 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Cargo.Run" />
-      <item itemvalue="Cargo.Run slices" />
       <item itemvalue="Cargo.Run structs" />
       <item itemvalue="Cargo.Run enums" />
       <item itemvalue="Cargo.Run collections" />
       <item itemvalue="Cargo.Run exceptions" />
+      <item itemvalue="Cargo.Run generics" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cargo.Run generics" />
         <item itemvalue="Cargo.Run exceptions" />
         <item itemvalue="Cargo.Run collections" />
         <item itemvalue="Cargo.Run structs" />
         <item itemvalue="Cargo.Run enums" />
-        <item itemvalue="Cargo.Run slices" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +179,8 @@
       <updated>1631452121774</updated>
       <workItem from="1631452123700" duration="3194000" />
       <workItem from="1631472842678" duration="1790000" />
-      <workItem from="1631483906965" duration="3916000" />
+      <workItem from="1631483906965" duration="4496000" />
+      <workItem from="1631499549829" duration="829000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1631453235209</created>
@@ -227,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631488942602</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="refactored exceptions">
+      <created>1631489222450</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1631489222450</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +264,7 @@
     <MESSAGE value="add mod" />
     <MESSAGE value="adding collection" />
     <MESSAGE value="adding exceptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding exceptions" />
+    <MESSAGE value="refactored exceptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored exceptions" />
   </component>
 </project>
